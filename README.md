@@ -1,7 +1,7 @@
 # TensorFlow for Deno
 \
 &nbsp;
-A very basic implementation of the Node.js backend for Tensorflow.js in Deno.
+A very basic implementation of Tensorflow.js in Deno, ported from Node.js.
 \
 &nbsp;
 ```javascript
