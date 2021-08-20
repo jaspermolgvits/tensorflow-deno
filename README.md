@@ -1,4 +1,4 @@
-# Tensorflow for Deno
+# TensorFlow for Deno
 
 
 WIP
@@ -7,15 +7,11 @@ WIP
 Very basic implementation of the Node.js backend for Tensorflow.js in Deno.
 
 
-**TODO:**
 
-Find and fix bugs (ther' be many...)
-
-Add and use WebGPU backend as the default backend
 
 
 ```javascript
-import tf from "./tensorflow.js";
+import tf from "https://deno.land/x/tensorflow/tf.js";
 
 const model = tf.sequential();
 model.add(tf.layers.dense({units: 1, inputShape: [1]}));
@@ -34,3 +30,11 @@ model.fit(xs, ys).then(() => {
 model.predict(tf.tensor2d([5], [1, 1])).print();
 });
 ```
+
+
+
+**TODO:**
+
+Find and fix bugs (ther' be many...).
+
+Add and use WebGPU backend as the default backend.
