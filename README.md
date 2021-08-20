@@ -1,11 +1,16 @@
 # Tensorflow for Deno
 
+
 WIP
+
 
 Very basic implementation of the Node.js backend for Tensorflow.js in Deno.
 
-TODO:
+
+**TODO:**
+
 Find and fix bugs (ther' be many...)
+
 Add and use WebGPU backend as the default backend
 
 
